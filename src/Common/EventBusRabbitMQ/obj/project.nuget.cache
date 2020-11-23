@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "D4ZF4wZTv9ZK2uvibauvLvp0R/zugDmjnwf19cHGtyGAHh+6s76Zbwt43c62ZyDLiH2iQXI3dIOXn2OkigZGaQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ugochukwu Odunukwe\\source\\repos\\ShoppingApp\\src\\Common\\EventBusRabbitMQ\\EventBusRabbitMQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ugochukwu Odunukwe\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\Ugochukwu Odunukwe\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Ugochukwu Odunukwe\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

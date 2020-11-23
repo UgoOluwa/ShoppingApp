@@ -1,0 +1,5 @@
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Common\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.deps.json
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Common\EventBusRabbitMQ\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.dll
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.csprojAssemblyReference.cache
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.AssemblyInfoInputs.cache
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Common\EventBusRabbitMQ\obj\Debug\netcoreapp3.1\EventBusRabbitMQ.AssemblyInfo.cs
