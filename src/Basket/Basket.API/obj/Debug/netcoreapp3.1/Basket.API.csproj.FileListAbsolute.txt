@@ -36,3 +36,5 @@ C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Basket\Basket.API\bin\D
 C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Basket\Basket.API\obj\Debug\netcoreapp3.1\Basket.API.csproj.CoreCompileInputs.cache
 C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Basket\Basket.API\obj\Debug\netcoreapp3.1\Basket.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Basket\Basket.API\obj\Debug\netcoreapp3.1\Basket.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Basket\Basket.API\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Ugochukwu Odunukwe\source\repos\ShoppingApp\src\Basket\Basket.API\bin\Debug\netcoreapp3.1\EventBusRabbitMQ.dll
