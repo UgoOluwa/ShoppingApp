@@ -18,11 +18,15 @@ namespace Basket.API.Controllers
     {
         private readonly IBasketRepository _repository;
         private readonly EventBusRabbitMQProducer _eventBus;
-        private readonly ILogger<BasketController> _logger;
         private readonly IMapper _mapper;
-        public BasketController(IBasketRepository basketRepository)
+        private readonly ILogger<BasketController> _logger;
+
+        public BasketController(IBasketRepository repository, EventBusRabbitMQProducer eventBus, ILogger<BasketController> logger, IMapper mapper)
         {
-            _repository = basketRepository;
+            _repository = repository ?? throw new ArgumentNullException(nameof(repository));
+            _eventBus = eventBus ?? throw new ArgumentNullException(nameof(eventBus));
+            _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger)); 
         }
 
         [HttpGet]
@@ -51,7 +55,7 @@ namespace Basket.API.Controllers
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public async Task<ActionResult> Checkout([FromBody] BasketCheckOut basketCheckout)
+        public async Task<IActionResult> Checkout([FromBody] BasketCheckOut basketCheckout)
         {
             // get total price of the basket
             // remove the basket 
