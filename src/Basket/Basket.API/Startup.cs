@@ -46,9 +46,13 @@ namespace Basket.API
 
             #endregion
 
+            #region Project Dependencies
+
             services.AddTransient<IBasketContext, BasketContext>();
             services.AddTransient<IBasketRepository, BasketRepository>();
             services.AddAutoMapper(typeof(Startup));
+
+            #endregion
 
             #region Swagger Dependencies
 
